@@ -52,6 +52,7 @@ def carregar_css():
 
 carregar_css()
 
+st.sidebar.image("logo.png", use_container_width=True)
 st.sidebar.title("Painel de Controle")
 
 # ==========================================
